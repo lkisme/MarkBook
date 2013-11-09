@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>509F36BA-42B3-4657-97C1-16966214A9A3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MarkBook</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>27AF6E78-4ED1-4B70-B116-96D99D1B4A44</key>
+		<string>https://github.com/lkisme/MarkBook.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MarkBook.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>27AF6E78-4ED1-4B70-B116-96D99D1B4A44</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lkisme/MarkBook.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>27AF6E78-4ED1-4B70-B116-96D99D1B4A44</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>27AF6E78-4ED1-4B70-B116-96D99D1B4A44</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MarkBook</string>
+		</dict>
+	</array>
+</dict>
+</plist>
