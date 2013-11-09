@@ -1,13 +1,13 @@
 //
-//  FirstViewController.h
+//  FileAccessManager.m
 //  MarkBook
 //
 //  Created by lk on 13-11-9.
 //  Copyright (c) 2013年 kelvin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "FileAccessManager.h"
 
-@interface FirstViewController : UIViewController
+@implementation FileAccessManager
 
 @end
