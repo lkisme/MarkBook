@@ -6,6 +6,14 @@
 //  Copyright (c) 2013年 kelvin. All rights reserved.
 //
 
+
+#define  LATITUDE @"LATITUDE"
+#define  LONGITUDE @"LONGITUDE"
+#define  PageNum @"PAGENUM"
+#define  ISBN_KEY @"ISBN_KEY"
+#define  Time @"TIME"
+#define  BookTitle @"BOOKTITLE"
+#define  ImgPath @"IMGPATH"
 #import <Foundation/Foundation.h>
 
 @interface BookMark : NSObject
@@ -25,4 +33,7 @@
 -(void)setLocationByLatitude:(double)latitude AndLongitude:(double)longitude;
 -(double)Latitude;
 -(double)Longitude;
+-(NSDictionary *)BookMarkToDictionary;
++(BookMark *)bookmarkFromDictionary:(NSDictionary *)dict;
+
 @end

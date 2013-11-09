@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BookMark.h"
 
 @interface FileAccessManager : NSObject
-
++(NSArray *)BookMarks;
++(BOOL)saveToFile:(BookMark *)mark withPicture:(UIImage *)img;
 @end
