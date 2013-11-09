@@ -14,7 +14,6 @@
 		B6128F74182E0D1E00082D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128F73182E0D1E00082D38 /* main.m */; };
 		B6128F78182E0D1E00082D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128F77182E0D1E00082D38 /* AppDelegate.m */; };
 		B6128F7B182E0D1E00082D38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6128F79182E0D1E00082D38 /* Main.storyboard */; };
-		B6128F7E182E0D1E00082D38 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128F7D182E0D1E00082D38 /* FirstViewController.m */; };
 		B6128F81182E0D1E00082D38 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128F80182E0D1E00082D38 /* SecondViewController.m */; };
 		B6128F83182E0D1E00082D38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6128F82182E0D1E00082D38 /* Images.xcassets */; };
 		B6128F8A182E0D1E00082D38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6128F89182E0D1E00082D38 /* XCTest.framework */; };
@@ -22,6 +21,12 @@
 		B6128F8C182E0D1E00082D38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6128F6B182E0D1E00082D38 /* UIKit.framework */; };
 		B6128F94182E0D1E00082D38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6128F92182E0D1E00082D38 /* InfoPlist.strings */; };
 		B6128F96182E0D1E00082D38 /* MarkBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128F95182E0D1E00082D38 /* MarkBookTests.m */; };
+		B6128FA1182E167800082D38 /* BookDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128FA0182E167800082D38 /* BookDetail.m */; };
+		B6128FA4182E169100082D38 /* SearchBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128FA3182E169100082D38 /* SearchBook.m */; };
+		B6128FA7182E199900082D38 /* DoubanBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128FA6182E199900082D38 /* DoubanBook.m */; };
+		B6128FB1182E3D3E00082D38 /* DetailWebPage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128FB0182E3D3E00082D38 /* DetailWebPage.m */; };
+		B6128FB4182E41F500082D38 /* FileAccessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128FB3182E41F500082D38 /* FileAccessManager.m */; };
+		B6128FB7182E423300082D38 /* BookMark.m in Sources */ = {isa = PBXBuildFile; fileRef = B6128FB6182E423300082D38 /* BookMark.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +51,6 @@
 		B6128F76182E0D1E00082D38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6128F77182E0D1E00082D38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B6128F7A182E0D1E00082D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B6128F7C182E0D1E00082D38 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B6128F7D182E0D1E00082D38 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		B6128F7F182E0D1E00082D38 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B6128F80182E0D1E00082D38 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B6128F82182E0D1E00082D38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +59,18 @@
 		B6128F91182E0D1E00082D38 /* MarkBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarkBookTests-Info.plist"; sourceTree = "<group>"; };
 		B6128F93182E0D1E00082D38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6128F95182E0D1E00082D38 /* MarkBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkBookTests.m; sourceTree = "<group>"; };
+		B6128F9F182E167800082D38 /* BookDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetail.h; sourceTree = "<group>"; };
+		B6128FA0182E167800082D38 /* BookDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetail.m; sourceTree = "<group>"; };
+		B6128FA2182E169100082D38 /* SearchBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBook.h; sourceTree = "<group>"; };
+		B6128FA3182E169100082D38 /* SearchBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBook.m; sourceTree = "<group>"; };
+		B6128FA5182E199900082D38 /* DoubanBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubanBook.h; sourceTree = "<group>"; };
+		B6128FA6182E199900082D38 /* DoubanBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubanBook.m; sourceTree = "<group>"; };
+		B6128FAF182E3D3E00082D38 /* DetailWebPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailWebPage.h; sourceTree = "<group>"; };
+		B6128FB0182E3D3E00082D38 /* DetailWebPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailWebPage.m; sourceTree = "<group>"; };
+		B6128FB2182E41F500082D38 /* FileAccessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileAccessManager.h; sourceTree = "<group>"; };
+		B6128FB3182E41F500082D38 /* FileAccessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileAccessManager.m; sourceTree = "<group>"; };
+		B6128FB5182E423300082D38 /* BookMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookMark.h; sourceTree = "<group>"; };
+		B6128FB6182E423300082D38 /* BookMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookMark.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +133,22 @@
 				B6128F76182E0D1E00082D38 /* AppDelegate.h */,
 				B6128F77182E0D1E00082D38 /* AppDelegate.m */,
 				B6128F79182E0D1E00082D38 /* Main.storyboard */,
-				B6128F7C182E0D1E00082D38 /* FirstViewController.h */,
-				B6128F7D182E0D1E00082D38 /* FirstViewController.m */,
 				B6128F7F182E0D1E00082D38 /* SecondViewController.h */,
 				B6128F80182E0D1E00082D38 /* SecondViewController.m */,
 				B6128F82182E0D1E00082D38 /* Images.xcassets */,
 				B6128F6E182E0D1E00082D38 /* Supporting Files */,
+				B6128F9F182E167800082D38 /* BookDetail.h */,
+				B6128FA0182E167800082D38 /* BookDetail.m */,
+				B6128FA2182E169100082D38 /* SearchBook.h */,
+				B6128FA3182E169100082D38 /* SearchBook.m */,
+				B6128FA5182E199900082D38 /* DoubanBook.h */,
+				B6128FA6182E199900082D38 /* DoubanBook.m */,
+				B6128FAF182E3D3E00082D38 /* DetailWebPage.h */,
+				B6128FB0182E3D3E00082D38 /* DetailWebPage.m */,
+				B6128FB2182E41F500082D38 /* FileAccessManager.h */,
+				B6128FB3182E41F500082D38 /* FileAccessManager.m */,
+				B6128FB5182E423300082D38 /* BookMark.h */,
+				B6128FB6182E423300082D38 /* BookMark.m */,
 			);
 			path = MarkBook;
 			sourceTree = "<group>";
@@ -255,9 +280,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6128F81182E0D1E00082D38 /* SecondViewController.m in Sources */,
+				B6128FA1182E167800082D38 /* BookDetail.m in Sources */,
+				B6128FA4182E169100082D38 /* SearchBook.m in Sources */,
+				B6128FB4182E41F500082D38 /* FileAccessManager.m in Sources */,
+				B6128FB7182E423300082D38 /* BookMark.m in Sources */,
 				B6128F78182E0D1E00082D38 /* AppDelegate.m in Sources */,
-				B6128F7E182E0D1E00082D38 /* FirstViewController.m in Sources */,
+				B6128FB1182E3D3E00082D38 /* DetailWebPage.m in Sources */,
 				B6128F74182E0D1E00082D38 /* main.m in Sources */,
+				B6128FA7182E199900082D38 /* DoubanBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +496,7 @@
 				B6128F9B182E0D1E00082D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6128F9C182E0D1E00082D38 /* Build configuration list for PBXNativeTarget "MarkBookTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +505,7 @@
 				B6128F9E182E0D1E00082D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

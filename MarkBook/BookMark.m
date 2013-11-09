@@ -10,4 +10,16 @@
 
 @implementation BookMark
 
+-(void)setLocationByLatitude:(double)lati AndLongitude:(double)longit{
+    latitude = [NSString stringWithFormat:@"%f",lati];
+    longitude = [NSString stringWithFormat:@"%f",longit];
+}
+-(double)Latitude{
+    double d = [latitude doubleValue];
+    return d;
+}
+-(double)Longitude{
+    return [longitude doubleValue];
+}
+
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FileAccessManager : UITableViewController
+@interface FileAccessManager : NSObject
 
 @end
