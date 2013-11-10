@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController<NSFetchedResultsControllerDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
+@property (nonatomic, strong) NSString *url;
+@property (nonatomic, strong) NSString *data;
+
+@property (nonatomic,strong) NSManagedObjectContext* managedObjectContext;
+@property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
+@property (nonatomic, strong) NSIndexPath *selectedIndex;
 @end

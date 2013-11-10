@@ -2,8 +2,8 @@
 //  MarkBookTests.m
 //  MarkBookTests
 //
-//  Created by lk on 13-11-9.
-//  Copyright (c) 2013年 kelvin. All rights reserved.
+//  Created by ZhenzhenXu on 11/9/13.
+//  Copyright (c) 2013 ZhenzhenXu. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
